@@ -1,0 +1,5 @@
+.env
+.old
+node_modules
+package-lock.json
+test.wav

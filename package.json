@@ -1,0 +1,26 @@
+{
+	"name": "speech-services",
+	"type": "module",
+	"private": true,
+	"version": "0.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "node ."
+	},
+	"keywords": [
+		"microsoft",
+		"azure",
+		"nodejs",
+		"speech",
+		"stt",
+		"tts"
+	],
+	"author": "S. Shahriar <shadowshahriar@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"@azure/ai-language-text": "^1.1.0",
+		"@azure/ai-text-analytics": "^5.1.0",
+		"dotenv": "^16.4.5",
+		"microsoft-cognitiveservices-speech-sdk": "^1.40.0"
+	}
+}
